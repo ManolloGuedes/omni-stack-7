@@ -32,7 +32,7 @@ module.exports = {
       place,
       description,
       hashtags,
-      image
+      image: filename
     });
 
     req.io.emit('post', post); //enviando msg via ws
